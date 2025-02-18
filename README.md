@@ -10,7 +10,7 @@ chmod +x radiusTester.sh
 ./radiusTester.sh 2>&1 | tee outputFile 
 ```
 
-Don't forget to update the placeholders <USERNAME>, <PASSWORD> and <SERVER> with your own values.
+Don't forget to update the placeholders USERNAME, PASSWORD and SERVER with your own values.
 
 
 # Example output
