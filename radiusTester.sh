@@ -8,7 +8,7 @@ while true
 do
         echo "---"
         date --iso-8601=ns --utc
-        time  (echo "User-Name=<USERNAME,User-Password=<PASSWORD> " | radclient <SERVER> auth Testme -t 15)
+        time  (echo "User-Name=<USERNAME>,User-Password=<PASSWORD> " | radclient <SERVER> auth Testme -t 15)
         sleep 2
         i=$((i+1))
         echo "Request Number" $i
