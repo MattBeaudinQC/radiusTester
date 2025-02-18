@@ -1,5 +1,5 @@
 # Usage
-This script uses ```radclient``` to perform repeated tests against any RADIUS server. radclient is a part of the freeradius-utils package on Ubuntu. 
+This script uses ```radclient``` to perform repeated tests against any RADIUS server. radclient is a part of the ```freeradius-utils``` package on Ubuntu. 
 
 More documentation on ```radclient``` is located here: https://wiki.freeradius.org/config/Radclient
 
